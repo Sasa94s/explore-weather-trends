@@ -67,3 +67,8 @@ SET CLIENT_ENCODING TO 'utf8';
 
 \copy global_data FROM '\explore-weather-trends\data\global-data.csv' DELIMITER ',' CSV HEADER;
 ```
+**Note:** This is a relative path, so make sure you've included an absolute path instead.
+
+## Third-pary Resources:
+- https://github.com/pivotal-legacy/sql_magic/blob/master/sql_magic%20API.ipynb
+- https://towardsdatascience.com/the-art-of-effective-visualization-of-multi-dimensional-data-6c7202990c57
